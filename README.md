@@ -16,7 +16,7 @@ The main model implementation containing:
 - **MyModel function**: Loads pre-trained weights and performs inference on single images
 - Uses ReLU activation function and runs on CPU for inference
 
-#### `our_model.py`
+#### `final_model.py`
 Complete training pipeline including:
 - Data loading and preprocessing with torchvision transforms
 - Model training with Adam optimizer and CrossEntropyLoss
@@ -126,7 +126,7 @@ FC4 (10) → Output
 1. Organize your digit images using `rozrazovac.py`
 2. Split data into train/val/test sets with `split_data.py`
 3. Apply data augmentation using `data_augmentation.py`
-4. Train the model with `our_model.py`
+4. Train the model with `final_model.py`
 5. Evaluate performance using `test_data_load.py` or `Main.py`
 
 ## Performance
